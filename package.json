@@ -1,0 +1,30 @@
+{
+  "name": "desktop-96",
+  "license": "WTFPL",
+  "version": "0.0.96.0",
+  "scripts": {
+    "local": "cd ./node_modules/desktop-93 && \"$npm_execpath\" run local"
+  },
+  "dependencies": {
+    "events": "^3.0.0",
+    "express": "^4.0.0",
+    "flux": "^2.0.0",
+    "jquery": "3.5.0",
+    "object.assign": "^3.0.0",
+    "pug": "^2.0.0",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "desktop-93": "^0.0.93"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.0",
+    "@types/node": "^12.2.0",
+    "@types/pug": "^2.0.0",
+    "@types/react": "^16.0.0",
+    "@types/react-dom": "^16.0.0",
+    "ts-loader": "^6.0.0",
+    "typescript": "^2.0.0",
+    "webpack": "^4.0.0",
+    "webpack-cli": "^3.0.0"
+  }
+}
